@@ -1,0 +1,22 @@
+java -Xmx8G -Xms1G -jar server.jar nogui
+java -Xmx12000M -Xms512M -jar server.jar nogui
+java -jar fabric-installer-0.7.4.jar server -dir/data
+java -Xmx10000M -Xms512M -jar fabric-server-launch.jar nogui
+
+java -jar Iris-Installer-1.1.1.jar
+
+java -jar forge-1.16.5-36.1.32-installer.jar -dir/data
+
+
+java -Xmx10000M -Xms512M -jar minecraft_server.1.16.5.jar nogui
+
+java -Xmx10000M -Xms512M -jar forge-1.16.5-36.1.32.jar nogui
+
+java -Xmx30000M -Xms512M -jar fabric-server-launch.jar nogui
+
+
+java -Xmx10000M -Xms512M -jar iris-mc1.17-1.1.0.jar nogui
+
+java -jar iris-mc1.17-1.1.0.jar nogui
+
+java -Xmx10000M -Xms512M -jar sodium-fabric-mc1.17-0.3.0+IRIS1-rev.7491e3a.jar nogui
